@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('{% static "img/wp-1.jpg" %}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 5em;
+}
+body #main{
+    padding-bottom: 5em;
+}
+
+footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+}
